@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+/*------header------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background: hsla(10, 89%, 70%, 1);
+    background: linear-gradient(90deg, hsla(10, 89%, 70%, 1) 0%, hsla(350, 100%, 69%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(10, 89%, 70%, 1) 0%, hsla(350, 100%, 69%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(10, 89%, 70%, 1) 0%, hsla(350, 100%, 69%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F78770", endColorstr="#FF607B", GradientType=1 );
+    padding: 0 !important;
+}
+
+.navbar-brand
+{
+    padding-left: 20px;
+    font-weight: 800;
+    color: #fff !important;
+}
+
+.navbar-nav li
+{
+    padding: 0 8px;
+}
+
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-size: 10px !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 22px !important;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*----------fin header-------------*/
+
+/*-------banner--------*/
+#banner
+{
+    padding-top: 10%;
+}
+.titulo
+{
+    font-size: 30px !important;
+    margin-top: 80px;
+    font-weight: 600;
+}
+
+.parrafo
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.boton
+{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.boton:hover
+{
+    transition: 1s !important;
+    background-color: orangered;   
+    box-shadow: 0 100px; 
+}
+
+/*--------fin banner--------------*/
+
+/*----------section 1----------*/
+#contenido
+{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgb(235, 225, 225);
+}
+
+.col-md-6 h2
+{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.col-md-6 p
+{
+    margin-top: 20px;
+}
+
